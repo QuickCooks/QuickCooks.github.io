@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+
     <title>Quick Cooks</title>
 
     <!-- Bootstrap core CSS -->
@@ -26,94 +27,23 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
 
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        h4 {
-            color: #DE8330;
-            margin-top: 5px;
-            font-size: 20px;
-        }
-        p {
-            line-height: 21px;
-            font-family: Baskerville;
-            font-style: italic;
-        }
-
         body {
-            background-color: #f1f1f1;
-            padding: 0px;
-            font-family: Arial;
+            padding-top: 54px;
         }
 
-        /* Center website */
-        .main {
-            max-width: 1100px;
-            margin: auto;
+        @media (min-width: 992px) {
+            body {
+                padding-top: 56px;
+            }
         }
 
-        h1 {
-            font-size: 50px;
-            word-break: break-all;
+        .portfolio-item {
+            margin-bottom: 30px;
         }
 
-        .row {
-            margin: 10px -16px;
-        }
-
-        /* Add padding BETWEEN each column */
-        .row,
-        .row > .column {
-            padding: 5px;
-            margin: 10px;
-        }
-
-        /* Create three equal columns that floats next to each other */
-        .column {
-            display: none; /* Hide all elements by default */
-        }
-
-        /* Clear floats after rows */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        /* Content */
-        .content {
-            background-color: white;
-            padding: 10px;
-
-        }
-
-        /* The "show" class is added to the filtered elements */
-        .show {
-            display: block;
-        }
-
-        /* Style the buttons */
-        .btnn {
-            border: none;
-            outline: none;
-            padding: 12px 16px;
-            background-color: white;
-            cursor: pointer;
-        }
-        .btnn.active {
-            background-color: #DE8330;
-            color: white;
-        }
-
-        img {
-            width: 100%;
-            height: 150%;
-
+        .pagination {
+            margin-bottom: 30px;
         }
 
     </style>
@@ -147,6 +77,7 @@
 
 <!-- MAIN (Center website) -->
 <div class="main">
+    <div class="container">
 
     <h2></br></br></br>Recipes</h2>
     <div id="mybtnnContainer">
@@ -162,317 +93,516 @@
         <button class="btnn" onclick="filterSelection('dessert')"> Dessert</button>
 
     </div>
+    </div>
     <hr>
+<div class="container">
 
-    <!-- Portfolio Gallery Grid -->
     <div class="row">
 
-        <div class="column vegan healthy dessert vegetarian btnn col-xs-12 col-sm-5" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/acaibowl.jpg" alt="Mountains">
-                <h4>Acai Bowl</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-                <li class="list-inline-item fa-2x">
-                    <a>
-                        <i class="fa fa-clock-o"></i>
-                    </a>
-                </li>
+        <div class="column vegan healthy dessert vegetarian btnn col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column meat season btnn col-xs-12 col-sm-5" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/bakedbasil.jpg" alt="Lights">
-                <h4>Baked Chicken Basil Casserole</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column meat season btnn col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column meat lowcarb btnn col-xs-12 col-sm-6 col-lg-8" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/bbqbeef.jpg" alt="Car" >
-                <h4>BBQ Beef</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column meat lowcarb btnn col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column meat lowcarb btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/bbqpork.jpg" alt="Car">
-                <h4>BBQ Pork</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column meat lowcarb btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column meat btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/bbqporkburger.jpg" alt="Car">
-                <h4>BBQ Pork Burger</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column meat btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
 
-        <div class="column meat btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/beef.jpg" alt="Car" >
-                <h4>Steak Diane</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column meat btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column xgluten vegan vegetarian dessert btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/berrybar.jpg" alt="Car">
-                <h4>Berry Nut Bar</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column xgluten vegan vegetarian dessert btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column xgluten season vegan vegetarian dessert btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/brownie.jpg" alt="Car">
-                <h4>Beyond Brownie</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column xgluten season vegan vegetarian dessert btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column meat btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/burger.jpg" alt="Car" >
-                <h4>Classic Hamurger and Fries</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column meat btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column xgluten lowcarb vegan healthy btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/butternutsoup.jpg" alt="Car" >
-                <h4>Butternut Squash Soup</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column xgluten lowcarb vegan healthy btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column lowbarb xgluten healthy btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/capresesalad.jpg" alt="Car" >
-                <h4>Caprese Salad</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
+        <div class="column lowbarb xgluten healthy btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
             </div>
         </div>
-        <div class="column season lowcarb healthy xgluten vegan btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/chefsalad.jpg" alt="Car" >
-                <h4>Chef's Salad</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+        <div class="column season lowcarb healthy xgluten vegan btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian dessert btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column meat season btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column meat btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian dessert vegan btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column fish lowcarb season btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian vegan healthy btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column meat btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian dessert btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column season btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column meat btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column meat btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian xgluten season btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column Vegetarian btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column fish btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian dessert xgluten healthy btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column meat btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian dessert btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column vegetarian dessert btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column lowcarb xgluten btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column lowcarb fish xgluten btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column fish healthy btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column lowcarb healthy season btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+                <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/acaibowl.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Acai Bowl</a>
+                    </h4>
+                    <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+                </div>
+            </div>
+        </div>
 
-            </div>
-        </div>
-        <div class="column vegetarian dessert btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/cherrychocolatecake.jpg" alt="Car" >
-                <h4>Cherry Chocolate Cake</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column meat season btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/chickenburrito.jpg" alt="Car" >
-                <h4>Southwestern Chicken Burrito</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column meat btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/chilebeef.jpg" alt="Car" >
-                <h4>Beef with Chile</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian dessert vegan btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/chocolatecake.jpg" alt="Car" >
-                <h4>Vegan Chocolate Cake</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/curry.jpg" alt="Car" >
-                <h4>Vegetable Curry</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column fish lowcarb season btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/fish.jpg" alt="Car" >
-                <h4>Fish Fillet</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/friedrice.jpg" alt="Car" >
-                <h4>Egg Fried Rice</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian vegan healthy btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/gardenburger.jpg" alt="Car" >
-                <h4>Garden Burger</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column meat btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/padthai.jpg" alt="Car" >
-                <h4>Chicken Pad Thai</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian dessert btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/pancakes.jpg" alt="Car" >
-                <h4>Pancakes</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column season btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/pastasalad.jpg" alt="Car" >
-                <h4>Penne Pasta Salad</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column meat btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/pizza.jpg" alt="Car" >
-                <h4>Everyone's Favorite Pizza</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column meat btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/roastchicken.jpg" alt="Car" >
-                <h4>Roasted Chicken</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian xgluten season btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/safronrice.jpg" alt="Car" >
-                <h4>Saffron Rice Pilaf</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column Vegetarian btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/sandwich.jpg" alt="Car" >
-                <h4>Sally's Sprout Sandwich</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column fish btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/shrimppasta.jpg" alt="Car" >
-                <h4>Shrimp Pasta</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian dessert xgluten healthy btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/smoothie.jpg" alt="Car" >
-                <h4>All Fruit Smoothie</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column meat btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/spaghetti.jpg" alt="Car" >
-                <h4>Spaghetti Bolognese</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/stirfry.jpg" alt="Car" >
-                <h4>Vegetable and Rice Stir Fry</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian dessert btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/strawberrypar.jpg" alt="Car" >
-                <h4>Strawberry Parfait</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column vegetarian dessert btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/superfoodsmoothie.jpg" alt="Car" >
-                <h4>Super Food Smoothie</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column lowcarb xgluten btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/sushi.jpg" alt="Car" >
-                <h4>Chef's Veggie Sushi</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column lowcarb fish xgluten btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/sweetsourshrimp.jpg" alt="Car" >
-                <h4>Sweet and Sour Shrimp</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column fish healthy btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/teryakisalmon.jpg" alt="Car" >
-                <h4>Salmon Teryaki</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <div class="column lowcarb healthy season btnn" onclick="location.href = 'singlerecipe.html';">
-            <div class="content">
-                <img src="img/recipes/tomatosalad.jpg" alt="Car" >
-                <h4>Fresh Tomato Basil Salad</h4>
-                <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
-                <hr>
-            </div>
-        </div>
-        <!-- END GRID -->
+    </div>
     </div>
 
-    <!-- END MAIN -->
+
+
+
+
+
+
+
+
+
+    <!-- Page Conten
+    <div class="container">
+
+        <!-- Page Heading
+        <h1 class="my-4">Page Heading
+            <small>Secondary Text</small>
+        </h1>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project One</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Two</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Three</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Four</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Five</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project Six</a>
+                        </h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+
+
+
+        <!-- END MAIN -->
 </div>
 
 <script>
