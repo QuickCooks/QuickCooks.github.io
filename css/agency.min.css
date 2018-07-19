@@ -121,7 +121,7 @@ img::-moz-selection {
     font-weight: 600;
     padding: .75em 0;
     letter-spacing: 1px;
-    color: black;
+    color: white;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
@@ -137,11 +137,11 @@ img::-moz-selection {
         -moz-transition: padding-top .3s, padding-bottom .3s;
         transition: padding-top .3s, padding-bottom .3s;
         border: none;
-        background-color: white
+        background-color: white;
     }
 
     #mainNav .navbar-brand {
-        font-size: 2.3em;
+        font-size: 2.2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s
@@ -241,7 +241,7 @@ img::-moz-selection {
 header.masthead {
     text-align: center;
     color: #fff;
-    background-image: url(../img/turkey.jpg);
+    background-image: url(../img/food.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
