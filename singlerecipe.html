@@ -92,8 +92,7 @@
 <div class="container">
 
     <!-- Portfolio Item Heading -->
-    <h1 class="my-4"></br></br>Roast Chicken
-    </h1>
+    <h1 class="my-4"></br></br>Roasted Chicken</h1>
 
     <!-- Portfolio Item Row -->
     <div class="row">
@@ -101,53 +100,81 @@
         <div class="col-md-8">
             <img class="img-fluid" src="img/recipes/roastchicken.jpg" alt="">
         </div>
+
         <div class = "col-4">
         <p>This recipe features mauris non erat iaculis, id ullamcorper massa dignissim id ullamcorper massa dignissim id
             ullamcorper massa dignissim. Maecenas ornare dui vitae magnaid ullamcorper massa dignissim rutrum porttitor.</p>
-            <div class ="row">
-                <div class="col-2">
+            <div>
+                <div>
                     <li class="list-inline-item fa-2x">
                      <a>
                          <i class="fa fa-clock-o"></i>
                      </a>
                     </li>
                 </div>
-                <div class="col-10">
+                <div >
                     <h6>prep time: 20 minutes</h6>
                     <h6>cook time: 40 minutes</h6>
                 </div>
             </div>
-            <br>
-            <div class ="row">
-                <div class="col-2">
+            <div>
+                <div>
                     <li class="list-inline-item fa-2x">
                         <a>
                             <i class="fa fa-fire"></i>
                         </a>
                     </li>
                 </div>
-                <div class="col-10">
+                <div>
                     <h6>calories: 550 per serving</h6>
                     <h6>sodium: 93 mg per serving</h6>
                     <h6>total Fat 8.6 g per serving</h6>
                     <h6>protein: 20 g per serving</h6>
                 </div>
+                <br>
             </div>
-            <br><br>
-            <div class="dropdown">
-                <button class="btn btn-buy btn-xl my-2 my-sm-0" type="submit">Add to Cart</button>
-                <div class="dropdown-content">
-                    <a href="#">One Serving</a>
-                    <a href="#">Two Servings</a>
-                    <a href="#">Four Servings</a>
+                <div class="dropdown">
+                    <button class="btn btn-buy btn-lg my-2 my-sm-0" type="submit">Add to Cart</button>
+                     <div class="dropdown-content">
+                        <a href="cart.html">One Serving</a>
+                        <a href="cart.html">Two Servings</a>
+                        <a href="cart.html">Four Servings</a>
+                    </div>
                 </div>
+
+            <div class="float-right popup" onclick="myFunction()">
+                <li class="list-inline-item float-right">
+                        <span class="popuptext" id="myPopup">Added to Favorites</span>
+                        <i class="fa fa-heart fa-3x" style="color:crimson"></i>
+                </li>
+                <script>
+                    // When the user clicks on div, open the popup
+                    function myFunction() {
+                        var popup = document.getElementById("myPopup");
+                        popup.classList.toggle("show");
+
+                    }
+                </script>
+
+
+
+
             </div>
+
 
         </div>
 
     </div>
     <hr>
+
     <div class="col-md-12">
+        <div class="row">
+            <li class="list-inline-item float-right">
+                <a href="#">
+                    <i class="fa fa-print fa-2x"></i>
+                </a>
+            </li>
+        </div>
         <h3 class="my-3">Ingredients</h3>
         <div class="col-md-6">
         <ul>
