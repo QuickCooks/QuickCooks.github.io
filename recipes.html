@@ -42,8 +42,51 @@
             margin-bottom: 30px;
         }
 
-        .pagination {
-            margin-bottom: 30px;
+
+
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            display: none; /* Hide all elements by default */
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+            background-color: white;
+            padding: 10px;
+
+        }
+        /* The "show" class is added to the filtered elements */
+        .show {
+            display: block;
+        }
+
+        /* Style the buttons */
+        .btnn {
+            border: none;
+            margin-bottom: 7px;
+            margin-top: 7px;
+            outline: none;
+            padding: 12px 12px;
+            background-color: white;
+            cursor: pointer;
+        }
+        .btnn.active {
+            padding: 10px 10px;
+            background-color: #DE8330;
+            color: white;
+        }
+
+        img {
+            width: 100%;
+            height: 150%;
         }
 
     </style>
