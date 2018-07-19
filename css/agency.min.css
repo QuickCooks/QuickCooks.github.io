@@ -8,15 +8,15 @@ p {
 }
 
 a {
-    color: #ffa216
+    color: #DE8330
 }
 
 a:hover {
-    color: #fec503
+    color: #d37622
 }
 
 .text-primary {
-    color: #ffa216 !important
+    color: #DE8330 !important  #d37622
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,13 +60,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-    background-color: #ffa216;
-    border-color: #ffa216
+    background-color: #DE8330;
+    border-color: #DE8330
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #fec810 !important;
-    border-color: #fec810 !important;
+    background-color: #d37622 !important;
+    border-color: #d37622 !important;
     color: #fff
 }
 
@@ -75,12 +75,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-    background: #ffa216;
+    background: #DE8330;
     text-shadow: none
 }
 
 ::selection {
-    background: #ffa216;
+    background: #DE8330;
     text-shadow: none
 }
 
@@ -103,17 +103,17 @@ img::-moz-selection {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #ffa216;
+    background-color: #DE8330;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 #mainNav .navbar-brand {
-    color: #ffa216;
+    color: #DE8330;
     font-family: 'Rancho', 'Helvetica Neue', Helvetica, Arial, cursive
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fec503
+    color: #DE8330
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -126,7 +126,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #ffa216
+    color: #DE8330
 }
 
 @media (min-width: 992px) {
@@ -159,8 +159,13 @@ img::-moz-selection {
 
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 2.25em;
-        padding: 12px 0
+        padding: 0px;
     }
+}
+
+#logo {
+    height: 40px;
+    margin: 0px 4px 0px 4px;
 }
 
 #subNav {
@@ -174,12 +179,12 @@ img::-moz-selection {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #ffa216;
+    background-color: #DE8330;
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 #subNav .navbar-brand {
-    color: #ffa216;
+    color: #DE8330;
     font-family: 'Cinzel Decorative', 'Helvetica Neue', Helvetica, Arial, cursive
 }
 
@@ -197,7 +202,7 @@ img::-moz-selection {
 }
 
 #subNav .navbar-nav .nav-item .nav-link.active, #subNav .navbar-nav .nav-item .nav-link:hover {
-    color: #ffa216
+    color: #DE8330
 }
 
 @media (min-width: 992px) {
@@ -515,7 +520,7 @@ header.masthead .intro-text .intro-heading {
     color: #fff;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #ffa216
+    background-color: #DE8330
 }
 
 .timeline > li .timeline-image h4 {
@@ -670,7 +675,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-    background-color: #ffa216;
+    background-color: #DE8330;
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: 100%
@@ -697,7 +702,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #ffa216;
+    border-color: #DE8330;
     box-shadow: none
 }
 
@@ -765,7 +770,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-    background-color: #ffa216
+    background-color: #DE8330
 }
 
 
@@ -791,7 +796,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .table thead tr{
-    background-color: #ffa216;
+    background-color: #DE8330;
     border: 2px solid #ddd;
 }
 
