@@ -12,11 +12,11 @@ a {
 }
 
 a:hover {
-    color: #d37622
+    color: #fec503
 }
 
 .text-primary {
-    color: #DE8330 !important  #d37622
+    color: #DE8330 !important
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,8 +65,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #d37622 !important;
-    border-color: #d37622 !important;
+    background-color: #de6630 !important;
+    border-color: #de6630 !important;
     color: #fff
 }
 
@@ -165,7 +165,7 @@ img::-moz-selection {
 
 #logo {
     height: 40px;
-    margin: 0px 4px 0px 4px;
+    margin: 0px 4px 0px 40px;
 }
 
 #subNav {
