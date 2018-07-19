@@ -1,10 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/orangeicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Quick Cooks</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            padding: 20px;
+            font-family: Arial;
+        }
+
+        /* Center website */
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+
+        .row {
+            margin: 10px -16px;
+        }
+
+        /* Add padding BETWEEN each column */
+        .row,
+        .row > .column {
+            padding: 5px;
+            margin: 10px;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            width: 30%;
+            display: none; /* Hide all elements by default */
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* The "show" class is added to the filtered elements */
+        .show {
+            display: block;
+        }
+
+        /* Style the buttons */
+        .btn {
+            border: none;
+            outline: none;
+            padding: 12px 16px;
+            background-color: white;
+            cursor: pointer;
+        }
+        .btn.active {
+            background-color: #DE8330;
+            color: white;
+        }
+    </style>
+
 </head>
-<body>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html">
+                <img id="logo" src="img/orangeicon.png" alt="">
+            </a>
+        </div>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">uick Cooks</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <form class="form-inline">
+                    <button class="btn  my-2 my-sm-0" href= "recipes.html">Log In</button>
+                    <button class="btn btn-primary btn-md my-2 my-sm-0" type="submit">Sign Up</button>
+                </form>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+    <h2></br></br></br>Recipes</h2>
+    <hr>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('vegan')"> Vegan</button>
+        <button class="btn" onclick="filterSelection('meat')"> Meaty</button>
+        <button class="btn" onclick="filterSelection('xgluten')"> Gluten Free</button>
+        <button class="btn" onclick="filterSelection('vegetarian')"> Vegetarian</button>
+        <button class="btn" onclick="filterSelection('sweets')"> Sweets</button>
+        <button class="btn" onclick="filterSelection('season')"> In Season</button>
+        <button class="btn" onclick="filterSelection('healthy')"> Healthy</button>
+        <button class="btn" onclick="filterSelection('lowcarb')"> Low Carb</button>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+        <div class="column vegan btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Mountains" style="width:100%">
+                <h4>Mountains</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column vegan btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Lights" style="width:100%">
+                <h4>Lights</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column vegan btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Nature" style="width:100%">
+                <h4>Forest</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+
+        <div class="column meat btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Retro</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column meat btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Fast</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column meat btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Classic</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+
+        <div class="column xgluten btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Girl</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column xgluten btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Man</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column xgluten btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column xgluten btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column xgluten btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column season btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column season btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column season btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column xgluten btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column healthy btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column meat btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <div class="column lowcard btn">
+            <div class="content">
+                <img src="img/turkey.jpg" alt="Car" style="width:100%">
+                <h4>Woman</h4>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+        </div>
+        <!-- END GRID -->
+    </div>
+
+    <!-- END MAIN -->
+</div>
+
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+    }
+
+    function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+    }
+
+    function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+        }
+        element.className = arr1.join(" ");
+    }
+
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="copyright">Copyright &copy; Quick Cooks 2018</span>
+            </div>
+            <div class="col-md-12">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <ul class="list-inline quicklinks">
+                <li class="list-inline-item">
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Terms of Use</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h7>This website is for a school project. All photos are free and taken from www.istockphoto.com/stock-photos/food-and-drink .</h7>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Contact form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/agency.min.js"></script>
 
 </body>
+
 </html>
