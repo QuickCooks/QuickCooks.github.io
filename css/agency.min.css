@@ -64,6 +64,12 @@ section h3.section-subheading {
     border-color: #DE8330
 }
 
+.btn-buy {
+    background-color: #2D9A4D;
+    border-color: #2D9A4D;
+    color: #fff
+}
+
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     background-color: #de6630 !important;
     border-color: #de6630 !important;
@@ -731,8 +737,10 @@ section#contact :-ms-input-placeholder {
 }
 
 footer {
+    background-size: 100%;
+    background-color: #DE8330;
     padding: 15px 0;
-    text-align: center
+    text-align: center;
 }
 
 footer span.copyright {
