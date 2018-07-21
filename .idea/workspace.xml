@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be2491cf-3e42-46b3-9904-81f549502760" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipes.html" afterPath="$PROJECT_DIR$/recipes.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,10 +34,10 @@
       <file leaf-file-name="recipes.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recipes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="532" column="32" lean-forward="false" selection-start-line="532" selection-start-column="32" selection-end-line="532" selection-end-column="32" />
+            <state relative-caret-position="498">
+              <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
               <folding>
-                <element signature="e#34684#34690#0" expanded="true" />
+                <element signature="e#34801#34807#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -253,12 +254,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531952191665</updated>
       <workItem from="1531952192979" duration="21607000" />
-      <workItem from="1531992157710" duration="15798000" />
+      <workItem from="1531992157710" duration="16379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37405000" />
+    <option name="totallyTimeSpent" value="37986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -330,7 +331,7 @@
         <state relative-caret-position="2745">
           <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="206" selection-end-column="14" />
           <folding>
-            <element signature="e#34684#34690#0" expanded="true" />
+            <element signature="e#34801#34807#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -442,10 +443,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recipes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="532" column="32" lean-forward="false" selection-start-line="532" selection-start-column="32" selection-end-line="532" selection-end-column="32" />
+        <state relative-caret-position="498">
+          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
           <folding>
-            <element signature="e#34684#34690#0" expanded="true" />
+            <element signature="e#34801#34807#0" expanded="true" />
           </folding>
         </state>
       </provider>
