@@ -64,6 +64,10 @@ section h3.section-subheading {
     border-color: #DE8330
 }
 
+.btn-clear {
+    background-color: transparent;
+}
+
 .btn-buy {
     background-color: #2D9A4D;
     border-color: #2D9A4D;
@@ -248,8 +252,9 @@ header.masthead {
     color: #fff;
     background-image: url(../img/food.jpg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fill;
     background-position: center;
+    bottom: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -736,7 +741,9 @@ section#contact :-ms-input-placeholder {
 }
 
 footer {
+    position:absolute;
     background-size: 100%;
+    width:100%;
     background-color: #DE8330;
     padding: 15px 0;
     text-align: center;
@@ -880,4 +887,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+.login-form {
+    margin: 10% auto 10px auto;
+    border-radius: 2px;
+    max-width: 38%;
+}
+.login-form{ text-align:center;}
+.forgot a {
+    color: #777777;
+    font-size: 14px;
+    text-decoration: underline;
 }
