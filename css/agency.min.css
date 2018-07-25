@@ -902,9 +902,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .brand {
-    margin-top: 10%;
-    text-align: center;
-    size: 30%;
+    font-size: 50px;
     color: #DE8330;
     font-family: 'Rancho', 'Helvetica Neue', Helvetica, Arial, cursive
 }
