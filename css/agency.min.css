@@ -254,11 +254,10 @@ header.masthead {
     background-repeat: no-repeat;
     background-attachment: fill;
     background-position: center;
-    bottom: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: 100% 80%
 }
 
 header.masthead .intro-text {
@@ -285,14 +284,14 @@ header.masthead .intro-text .intro-heading {
 @media (min-width: 768px) {
     header.masthead .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px
+        padding-bottom: 180px
     }
 
     header.masthead .intro-text .intro-lead-in {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
     }
 
