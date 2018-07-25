@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+        
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+        
+    <style>
+
+        label {
+            display: inline-block;
+            font-size: .9rem;
+            width: 35%;
+        }
+
+    
+        #quickcooks{
+            position: absolute;
+            width: 451px;
+            height: 100px;
+            left: 710px;
+            top: 154px;
+        }
+        
+        .center {
+            position: absolute;
+            width: 451px;
+            height: 100px;
+            left: 734px;
+            top: 154px;
+        }
+        
+        fieldset{
+            position: absolute;
+            width: 400px;
+            height: 380px;
+            left: 720px;
+            top: 294px;
+            background: #EDEDED;
+        }
+        
+        h1{
+            position: absolute;
+            width: 214px;
+            height: 67px;
+            left: 121px;
+            top: 0px;
+
+            font-family: 'Roboto', sans-serif;
+            font-style:  normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 60px;
+
+        }
+        
+        input {
+            margin: .4rem 0;
+        }
+        
+        #username{
+            position: absolute;
+            width: 320px;
+            height: 50px;
+            left: 50px;
+            top: 137px;
+            background: #FFFFFF;
+        }
+        
+        #password{
+           
+            position: absolute;
+            width: 320px;
+            height: 50px;
+            left: 50px;
+            top: 200px;
+            background: #FFFFFF;
+        }
+        
+        #submit{
+            position: absolute;
+            width: 320px;
+            height: 50px;
+            left: 50px;
+            top: 280px;
+            font-family: 'Roboto', sans-serif;
+            background: #FFB800;
+        }
+        
+        #forgotUser{
+         
+            font-family: 'Roboto', sans-serif;
+            font-size: 13px;
+            position: absolute;
+
+            left: 80px;
+            top: 340px;
+            opacity: 0.6;
+
+        }
+        
+        hr{
+            position: absolute;
+            width: 20px;
+            height: 1px;
+            left: 202px;
+            top: 350px;
+
+            transform: rotate(90deg);
+        }
+        
+        #forgotPass{
+
+            font-family: 'Roboto', sans-serif;
+            font-size: 13px;
+            position: absolute;
+            left: 250px;
+            top: 340px;
+            opacity: 0.6;
+
+        }
+        
+        #newAccount{
+            
+            position: absolute;
+            width: 320px;
+            height: 30px;
+            left: 775px;
+            top: 710px;
+            background: #C4C4C4;
+        }
+        
+</style>
+    
+    
+    <img src="img/quickcooks.png" id = "quickcooks">
+    <fieldset>
+  
+    <h1 class = "a-spacing-small">Sign In </h1>
+    <div>
+      
+        <input type="text" id="username" name="username"
+               required />
+   
+    <input type="password" id="password" name="password"
+               minlength="8" required
+               placeholder="8 characters minimum" />
+    </div>
+    <input type="submit" id= "submit" value="Log In">
+    <h2 id = "forgotUser">Forgot Username</h2>
+    <hr>
+    <h2 id = "forgotPass">Forgot Password</h2>
+    </fieldset>
+    <input type="submit" id= "newAccount" value="Create a new account">
+    </head>
+</html>
