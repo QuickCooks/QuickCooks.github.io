@@ -1,14 +1,26 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        
-      <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
-        
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
-        
+
+
     <style>
+
+        .login-form {
+            margin: 10% auto 10px auto;
+            border-radius: 2px;
+            max-width: 38%;
+        }
+        .login-form{ text-align:center;}
+        .forgot a {
+            color: #777777;
+            font-size: 14px;
+            text-decoration: underline;
+        }
 
         label {
             display: inline-block;
@@ -16,24 +28,11 @@
             width: 35%;
         }
 
-    
-        #quickcooks{
-            position: absolute;
-            width: 451px;
-            height: 100px;
-            left: 710px;
-            top: 154px;
-        }
-        
         .center {
-            position: absolute;
-            width: 451px;
-            height: 100px;
-            left: 734px;
-            top: 154px;
+            position: center;
         }
-        
-        fieldset{
+
+        fieldset {
             position: absolute;
             width: 400px;
             height: 380px;
@@ -41,8 +40,8 @@
             top: 294px;
             background: #EDEDED;
         }
-        
-        h1{
+
+        h1 {
             position: absolute;
             width: 214px;
             height: 67px;
@@ -50,18 +49,18 @@
             top: 0px;
 
             font-family: 'Roboto', sans-serif;
-            font-style:  normal;
+            font-style: normal;
             font-weight: normal;
             line-height: normal;
             font-size: 60px;
 
         }
-        
+
         input {
             margin: .4rem 0;
         }
-        
-        #username{
+
+        #username {
             position: absolute;
             width: 320px;
             height: 50px;
@@ -69,9 +68,9 @@
             top: 137px;
             background: #FFFFFF;
         }
-        
-        #password{
-           
+
+        #password {
+
             position: absolute;
             width: 320px;
             height: 50px;
@@ -79,8 +78,8 @@
             top: 200px;
             background: #FFFFFF;
         }
-        
-        #submit{
+
+        #submit {
             position: absolute;
             width: 320px;
             height: 50px;
@@ -89,9 +88,9 @@
             font-family: 'Roboto', sans-serif;
             background: #FFB800;
         }
-        
-        #forgotUser{
-         
+
+        #forgotUser {
+
             font-family: 'Roboto', sans-serif;
             font-size: 13px;
             position: absolute;
@@ -101,8 +100,8 @@
             opacity: 0.6;
 
         }
-        
-        hr{
+
+        hr {
             position: absolute;
             width: 20px;
             height: 1px;
@@ -111,8 +110,8 @@
 
             transform: rotate(90deg);
         }
-        
-        #forgotPass{
+
+        #forgotPass {
 
             font-family: 'Roboto', sans-serif;
             font-size: 13px;
@@ -122,9 +121,9 @@
             opacity: 0.6;
 
         }
-        
-        #newAccount{
-            
+
+        #newAccount {
+
             position: absolute;
             width: 320px;
             height: 30px;
@@ -132,28 +131,32 @@
             top: 710px;
             background: #C4C4C4;
         }
-        
-</style>
-    
-    
-    <img src="img/quickcooks.png" id = "quickcooks">
+
+    </style>
+
+</head>
+
+<div class="login-form">
+
     <fieldset>
-  
-    <h1 class = "a-spacing-small">Sign In </h1>
-    <div>
-      
-        <input type="text" id="username" name="username"
-               required />
-   
-    <input type="password" id="password" name="password"
-               minlength="8" required
-               placeholder="8 characters minimum" />
-    </div>
-    <input type="submit" id= "submit" value="Log In">
-    <h2 id = "forgotUser">Forgot Username</h2>
-    <hr>
-    <h2 id = "forgotPass">Forgot Password</h2>
+
+        <h1 class="a-spacing-small">Sign In </h1>
+        <div>
+
+            <input type="text" id="username" name="username"
+                   required/>
+
+            <input type="password" id="password" name="password"
+                   minlength="8" required
+                   placeholder="8 characters minimum"/>
+        </div>
+        <input type="submit" id="submit" value="Log In">
+        <h2 id="forgotUser">Forgot Username</h2>
+        <hr>
+        <h2 id="forgotPass">Forgot Password</h2>
+    <input type="submit" id="newAccount" value="Create a new account">
+
     </fieldset>
-    <input type="submit" id= "newAccount" value="Create a new account">
-    </head>
+
+</div>
 </html>
