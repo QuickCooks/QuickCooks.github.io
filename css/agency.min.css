@@ -226,7 +226,7 @@ img::-moz-selection {
     }
 
     #subNav .navbar-brand {
-        font-size: 20px;
+        font-size: 50px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s
@@ -262,8 +262,8 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 header.masthead .intro-text .intro-lead-in {
