@@ -901,6 +901,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     font-size: 14px;
     text-decoration: underline;
 }
+.already a {
+    color: orange;
+    font-size: 14px;
+}
 
 .brand {
     font-size: 50px;

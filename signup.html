@@ -38,13 +38,19 @@
 
         fieldset {
             padding-top: 5%;
-            background: #EDEDED;
+            background: #f1f1f1;
+            max-width: 500px;
         }
 
         .form-group {
             margin-right: 10%;
             margin-left: 10%;
 
+        }
+        .align-center {
+            display: block;
+            margin: 1.0em auto;
+            text-align: center;
         }
     </style>
 
@@ -56,13 +62,24 @@
 <div class="login-form">
     <h1 class="brand"> Quick Cooks</h1>
 
-    <fieldset>
+    <fieldset class="align-center">
         <div class="main-div">
             <h3>SIGN UP</h3>
             <div class="panel">
-                <p>Please enter your email and password</p>
+                <p>Welcome to Quick Cooks!</p>
             </div>
             <form id="Login">
+                <div class="form-group">
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                    <input type="email" class="form-control" id="first" placeholder="First Name">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <input type="email" class="form-control" id="last" placeholder="Last Name">
+                        </div>
+                    </div>
+                </div>
 
                 <div class="form-group">
 
@@ -72,10 +89,29 @@
                 </div>
 
                 <div class="form-group">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
 
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+
+                </div>
+                <div class="form-group">
+
+                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+
+                </div>
+                <div class="forgot">
+                    <a href="https://amzn.to/2yS28Qb">Sign Up with Amazon</a>
+                    <br><br>
+
+                </div>
+                <button type="submit" class="btn btn-primary">SIGN UP</button>
+                <br> <br>
+                <div class="already">
+                    <a>Already have an account?</a>
+                    <a href="login.html"><u href="login.html">Log in.</u></a>
+
+                    <br><br>
+
+                </div>
             </form>
         </div>
     </fieldset>

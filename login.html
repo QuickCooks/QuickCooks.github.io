@@ -38,13 +38,19 @@
 
         fieldset {
             padding-top: 5%;
-            background: #EDEDED;
+            background: #f1f1f1;
+            max-width: 500px;
         }
 
         .form-group {
             margin-right: 10%;
             margin-left: 10%;
 
+        }
+        .align-center {
+            display: block;
+            margin: 1.0em auto;
+            text-align: center;
         }
     </style>
 
@@ -56,11 +62,11 @@
 <div class="login-form">
     <h1 class="brand"> Quick Cooks</h1>
 
-    <fieldset>
+    <fieldset class="align-center">
         <div class="main-div">
-            <h3>LOG IN</h3>
+            <h3>Welcome Back!</h3>
             <div class="panel">
-                <p>Please enter your email and password</p>
+                <p>Please enter your email and password.</p>
             </div>
             <form id="Login">
 
@@ -78,9 +84,18 @@
                 </div>
                 <div class="forgot">
                     <a href="reset.html">Forgot password?</a>
+                    <br><br>
+
                 </div>
                 <button type="submit" class="btn btn-primary">Login</button>
+                <br> <br>
+                <div class="already">
+                    <a>New to Quick Cooks?</a>
+                    <a href="signup.html"><u href="login.html">Sign up.</u></a>
 
+                    <br><br>
+
+                </div>
             </form>
         </div>
     </fieldset>

@@ -26,6 +26,15 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
 
+    <style>
+
+      h9{
+        font-size: 40px;
+        font-family: 'Arima Madurai', cursive;
+      }
+
+    </style>
+
   </head>
 
   <body id="page-top">
@@ -42,7 +51,8 @@
           <ul class="navbar-nav text-uppercase ml-auto">
             <form class="form-inline">
               <input type="button" class="btn btn-primary btn-md text-uppercase" value="SIGN UP" onclick="location.href = 'signup.html';">
-              <input type="button" class="btn btn-clear btn-md text-uppercase" value="LOG IN" onclick="location.href = 'login.html';">            </form>
+              <input type="button" class="btn btn-clear btn-md text-uppercase" value="LOG IN" onclick="location.href = 'login.html';">
+            </form>
           </ul>
         </div>
       </div>
@@ -80,8 +90,7 @@
               <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Pick Your Favorites</h4>
-            <p class="text-muted">When you find the yummiest recipes, ordering is a breeze when you have Amazon Prime. You can
-              even create a weekly meal plan from your favorited recipes.</p>
+            <p class="text-muted">When you find the yummiest recipes, ordering is a breeze when you have Amazon Prime. Quickly add the necessary ingredients to your Amazon Cart with one click.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -132,11 +141,61 @@
         </div>
       </div>
 
+
+
+
+      <section class="showcase" id="featuredrecipes">
+        <div class="text-center">
+        <h9>Recipes of the Week!</h9>
+          <br><br>
+        </div>
+      <div class="container">
+
+        <div class="row">
+
+          <div class="column vegetarian dessert vegan btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+              <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/chocolatecake.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <orangea>Chocolate Cake</orangea>
+                </h4>
+                <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column meat season btnn col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/bakedbasil.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <orangea>Chicken Basil Casserole</orangea>
+                </h4>
+                <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+              </div>
+            </div>
+          </div>
+          <div class="column lowbarb xgluten healthy btnn col-lg-4 col-sm-6 portfolio-item" onclick="location.href = 'singlerecipe.html';">
+            <div class="card h-100">
+              <a href="singlerecipe.html"><img class="card-img-top" src="img/recipes/capresesalad.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <orangea>Caprese Salad</orangea>
+                </h4>
+                <p class="card-text">This recipe features mauris non erat iaculis, id ullamcorper massa dignissim. Maecenas ornare dui vitae magna rutrum porttitor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+
       <div class="intro-text text-center">
         <br><br>
-        <input type="button" class="btn btn-primary btn-xl text-uppercase align-items-center" value="START TODAY!" onclick="location.href = 'recipes.html';">
+        <input type="button" class="btn btn-primary btn-xl text-uppercase align-items-center" value="FIND MORE!" onclick="location.href = 'recipes.html';">
 
       </div>
+
 
     </section>
 
